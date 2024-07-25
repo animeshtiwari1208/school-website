@@ -1,38 +1,157 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Navigation Styles */
+nav {
+  background-color: #4CAF50;
+  padding: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 0;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 5rem;
+}
+
+nav ul li a {
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Navbar Links */
+.navbar-nav .nav-link {
+  margin: 0 1rem; /* Space between each nav link */
+
 }
+.navbar-brand {
+  font-size: 2rem; /* Adjust this value as needed */
+}
+
+
+/* Home Page Styles */
+.Home {
+  padding: 2rem;
+}
+
+.carousel {
+  margin: 2rem 0;
+}
+
+/* About Us Styles */
+.AboutUs {
+  padding: 2rem;
+  text-align: left;
+}
+
+.AboutUs h2 {
+  color: #4CAF50;
+}
+
+.AboutUs p {
+  margin: 0.5rem 0;
+}
+
+/* Academics Styles */
+.Academics {
+  padding: 2rem;
+  text-align: left;
+}
+
+.Academics ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.Academics li {
+  margin: 0.5rem 0;
+}
+
+/* Admissions Styles */
+.Admissions {
+  padding: 2rem;
+  text-align: left;
+}
+
+.Admissions ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.Admissions li {
+  margin: 0.5rem 0;
+}
+
+/* Faculty Styles */
+.Faculty {
+  padding: 2rem;
+  text-align: left;
+}
+
+.Faculty ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.Faculty li {
+  margin: 0.5rem 0;
+}
+
+/* Students Styles */
+.Students {
+  padding: 2rem;
+  text-align: left;
+}
+
+.Students ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.Students li {
+  margin: 0.5rem 0;
+}
+
+
+/* App.css */
+.Gallery {
+  padding: 2rem;
+  text-align: center;
+}
+
+.gallery-images img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0.5rem;
+}
+
+.gallery-videos video {
+  width: 100%;
+  max-width: 320px;
+  margin: 0.5rem;
+}
+
